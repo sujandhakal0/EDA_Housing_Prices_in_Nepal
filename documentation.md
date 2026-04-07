@@ -11,7 +11,7 @@ This document describes the first phase of Exploratory Data Analysis (EDA) and F
 ## The Problem
 
 The original `PRICE` column had several issues:
-![[image.png]]
+![Price column issues](./image.png)
 
 | Issue Type | Example Values | Count |
 |------------|----------------|-------|
@@ -63,11 +63,11 @@ Before converting values, all rows were classified into mutually exclusive categ
 
 ```
 
-![[image1.png]]
-![[image2.png]]
-![[image3.png]]
-![[image4.png]]
-![[image5.png]]
+![Classification output 1](./image1.png)
+![Classification output 2](./image2.png)
+![Classification output 3](./image3.png)
+![Classification output 4](./image4.png)
+![Classification output 5](./image5.png)
 
 
 ---
@@ -176,7 +176,7 @@ Total rows in original: 3,418
 Total rows classified: 3,418
 Difference: 0 ✓
 ```
-![[image6.png]]
+![Verification output](./image6.png)
 ### Data Types After Conversion
 
 | Column             | Type    | Non-Null Count |
